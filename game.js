@@ -70,8 +70,8 @@ function selectCard() {
 function update() {
     if (card1Selected.dataset.value !== card2Selected.dataset.value) {
        
-        card1Selected.src = "";
-        card2Selected.src = "";
+        card1Selected.src = " ";
+        card2Selected.src = " ";
         card1Selected.style.backgroundColor = "#aaa";
         card2Selected.style.backgroundColor = "#aaa";
 
